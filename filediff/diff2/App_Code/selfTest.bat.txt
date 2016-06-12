@@ -1,0 +1,7 @@
+
+
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\csc /target:exe /out:diffTest.exe /d:DEBUG /d:TRACE /d:SELFTEST Diff.cs
+
+diffTest.exe
+
+pause
