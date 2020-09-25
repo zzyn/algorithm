@@ -27,7 +27,25 @@ public class RemoveDuplicatesFromSortedList {
     public ListNode deleteAllDuplicates(ListNode head) {
         if(head == null) return head;
         ListNode dummy = new ListNode(Integer.MAX_VALUE);
+        dummy.next = head;
+        ListNode prev = dummy, cur = head;
+        while (cur != null) {
+            boolean duplicated = false;
+            while (cur.next != null && cur.val == cur.next.val) {
+                duplicated = true;
+                cur = cur.next;
+            }
 
+            if(duplicated) {
+                cur = cur.next;
+                continue;
+            }
+
+            prev.next = cur;
+            prev = prev.next;
+            cur = cur.next;
+        }
+        prev.next = cur;
         return dummy.next;
     }
 }
