@@ -1,4 +1,4 @@
-package com.leetcodes.strings;
+package com.leetcodes.string;
 
 public class KmpAcStateMachineVersion {
 
