@@ -61,7 +61,8 @@ public class MinMeetingRooms {
 
     }
 
-
+    //时间复杂度：O(nlog(n))
+    //空间复杂度：O(n)
     public int minMeetingRooms_version_2(int[][] intervals) {
         if (intervals == null) {
             return 0;
