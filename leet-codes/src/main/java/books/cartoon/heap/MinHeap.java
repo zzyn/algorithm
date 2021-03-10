@@ -9,7 +9,10 @@ import java.util.Arrays;
  * leftChildIndex = parentIndex * 2 + 1;
  * rightChildIndex = parentIndex * 2 + 2;
  */
-public class Heap {
+
+
+
+public class MinHeap {
 
     /**
      * 上浮
