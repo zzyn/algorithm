@@ -1,4 +1,4 @@
-package books.cartoon._questions;
+package books.cartoon.search;
 
 public class AStarSearchPath {
 }
