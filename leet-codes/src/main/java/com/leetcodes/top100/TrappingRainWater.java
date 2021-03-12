@@ -95,9 +95,9 @@ public class TrappingRainWater {
     public static void main(String[] args){
 
         int[] a1 = {0,1,0,2,1,0,1,3,2,1,2,1};
-        System.out.println(trapV2(a1));
+        System.out.println(trapV3(a1));
         int[] a2 = {4,2,0,3,2,5};
-        System.out.println(trapV2(a2));
+        System.out.println(trapV3(a2));
 
     }
 }
