@@ -6,15 +6,7 @@ import java.util.ArrayDeque;
  * Definition for a binary tree node.
  */
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 /**
  * 查找节点p的在tree中序遍历的顺序后继
@@ -24,6 +16,16 @@ class TreeNode {
  * S = O(H)
  */
 public class InorderSuccessor {
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         //P的右child不为null，找子树中最左的一个节点就是后继
