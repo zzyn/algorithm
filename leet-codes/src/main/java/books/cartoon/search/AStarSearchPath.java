@@ -96,22 +96,22 @@ public class AStarSearchPath {
     private static ArrayList<Grid> findNeighbors(Grid grid, List<Grid> openList, List<Grid> closeList) {
         ArrayList<Grid> grids = new ArrayList<>();
 
-        //search up
+        //acm.search up
         if (isValidGrid(grid.x, grid.y + 1, openList, closeList)) {
             grids.add(new Grid(grid.x, grid.y + 1));
         }
 
-        //search down
+        //acm.search down
         if (isValidGrid(grid.x, grid.y - 1, openList, closeList)) {
             grids.add(new Grid(grid.x, grid.y - 1));
         }
 
-        //search left
+        //acm.search left
         if (isValidGrid(grid.x - 1, grid.y, openList, closeList)) {
             grids.add(new Grid(grid.x - 1, grid.y));
         }
 
-        //search right
+        //acm.search right
         if (isValidGrid(grid.x + 1, grid.y, openList, closeList)) {
             grids.add(new Grid(grid.x + 1, grid.y));
         }
