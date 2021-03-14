@@ -1,6 +1,19 @@
 package microsoft.middle;
+/*
+Assume the following rules are for the tic-tac-toe game on an n x n board between two players:
 
-public class TicTacToe {
+A move is guaranteed to be valid and is placed on an empty block.
+Once a winning condition is reached, no more moves are allowed.
+A player who succeeds in placing n of their marks in a horizontal, vertical, or diagonal row wins the game.
+Implement the TicTacToe class:
+
+TicTacToe(int n) Initializes the object the size of the board n.
+int move(int row, int col, int player) Indicates that player with id player plays at the cell (row, col) of the board. The move is guaranteed to be a valid move.
+Follow up:
+Could you do better than O(n2) per move() operation?
+
+ */
+public class $348_TicTacToe {
 
     int[] rows, cols, dig;
     int n;
@@ -8,7 +21,7 @@ public class TicTacToe {
     /**
      * Initialize your data structure here.
      */
-    public TicTacToe(int n) {
+    public $348_TicTacToe(int n) {
         rows = new int[n];
         cols = new int[n];
         dig = new int[2];

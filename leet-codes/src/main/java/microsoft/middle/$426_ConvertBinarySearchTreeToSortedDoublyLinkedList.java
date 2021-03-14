@@ -1,26 +1,25 @@
 package microsoft.middle;
 
-import java.util.Stack;
 
-class Node {
-    public int val;
-    public Node left;
-    public Node right;
+public class $426_ConvertBinarySearchTreeToSortedDoublyLinkedList {
 
-    public Node() {}
+    static class Node {
+        public int val;
+        public Node left;
+        public Node right;
 
-    public Node(int _val) {
-        val = _val;
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val,Node _left,Node _right) {
+            val = _val;
+            left = _left;
+            right = _right;
+        }
     }
-
-    public Node(int _val,Node _left,Node _right) {
-        val = _val;
-        left = _left;
-        right = _right;
-    }
-}
-
-public class TreeToDoublyList {
 
     Node first = null;
     Node last = null;
@@ -65,7 +64,7 @@ public class TreeToDoublyList {
         root.left = n2;
         root.right = n5;
 
-        TreeToDoublyList s = new TreeToDoublyList();
+        $426_ConvertBinarySearchTreeToSortedDoublyLinkedList s = new $426_ConvertBinarySearchTreeToSortedDoublyLinkedList();
 
         Node res = s.treeToDoublyList(root);
 

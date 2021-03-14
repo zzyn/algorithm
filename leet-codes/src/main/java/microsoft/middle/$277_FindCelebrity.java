@@ -3,7 +3,7 @@ package microsoft.middle;
 //双指针O(n)解法
 //时间复杂度：O(n)
 //空间复杂度：O(1)
-public class FindCelebrity extends Relation {
+public class $277_FindCelebrity extends Relation {
 
     public int findCelebrity(int n) {
         int left = 0, right = n - 1;

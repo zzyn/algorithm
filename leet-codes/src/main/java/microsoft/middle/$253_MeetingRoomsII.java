@@ -7,7 +7,7 @@ import java.util.*;
  * return the minimum number of conference rooms required.
  *
  */
-public class MinMeetingRooms {
+public class $253_MeetingRoomsII {
 
     /**
      *
