@@ -106,6 +106,3 @@
 
 - 并查集 (union-find with disjointed set)
 
-# 分布式中常用数据结构
-
-- LSM-Tree
