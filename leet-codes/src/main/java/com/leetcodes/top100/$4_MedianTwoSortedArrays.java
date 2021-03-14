@@ -3,7 +3,7 @@ package com.leetcodes.top100;
 /**
  * two sorted array
  */
-public class MedianTwoSortedArrays {
+public class $4_MedianTwoSortedArrays {
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m1 = nums1.length;

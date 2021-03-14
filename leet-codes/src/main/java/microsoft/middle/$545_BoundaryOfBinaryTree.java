@@ -2,7 +2,7 @@ package microsoft.middle;
 
 import java.util.*;
 
-public class BoundaryOfBinaryTree {
+public class $545_BoundaryOfBinaryTree {
 
     /**
      * Definition for a binary tree node.

@@ -21,7 +21,7 @@ Given an integer kill representing the ID of a process you want to kill,
 return a list of the IDs of the processes that will be killed.
 You may return the answer in any order.
  */
-public class KillProcess {
+public class $582_KillProcess {
 
     /**
      * T=O(n^n)

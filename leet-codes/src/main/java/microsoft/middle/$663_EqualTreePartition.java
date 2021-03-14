@@ -5,7 +5,7 @@ package microsoft.middle;
   your task is to check if it's possible to partition the tree to two trees
   which have the equal sum of values after removing exactly one edge on the original tree.
  */
-public class CheckEqualTree {
+public class $663_EqualTreePartition {
 
     class TreeNode {
       int val;

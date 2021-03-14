@@ -1,6 +1,6 @@
 package com.leetcodes.top100;
 
-public class TrappingRainWater {
+public class $42_TrappingRainWater {
 
     /**
      * 暴力法

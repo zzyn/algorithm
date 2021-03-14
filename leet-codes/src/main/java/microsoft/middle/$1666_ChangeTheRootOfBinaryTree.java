@@ -1,6 +1,6 @@
 package microsoft.middle;
 
-public class ChangeTheRootOfBinaryTree {
+public class $1666_ChangeTheRootOfBinaryTree {
 
     class Node {
         public int val;

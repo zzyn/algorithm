@@ -1,6 +1,6 @@
 package microsoft.middle;
 
-public class LargestBSTSubtree {
+public class $333_LargestBSTSubtree {
 
     class TreeNode {
         int val;

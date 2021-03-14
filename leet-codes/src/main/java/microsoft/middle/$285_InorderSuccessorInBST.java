@@ -15,7 +15,7 @@ import java.util.ArrayDeque;
  * T = O(H)
  * S = O(H)
  */
-public class InorderSuccessor {
+public class $285_InorderSuccessorInBST {
 
     class TreeNode {
         int val;

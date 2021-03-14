@@ -4,7 +4,7 @@ package microsoft.middle;
 
 
 
-public class InOrderSuccessor2 {
+public class $510_InorderSuccessorInBST2 {
 
     class Node {
         public int val;

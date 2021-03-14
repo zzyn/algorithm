@@ -10,7 +10,7 @@ The original root becomes the new right child.
 The original right child becomes the new left child.
 
  */
-public class BinaryTreeUpsideDown {
+public class $156_BinaryTreeUpsideDown {
 
     class TreeNode {
         int val;

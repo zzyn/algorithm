@@ -17,7 +17,7 @@ Notice that by initializing the pointer to a non-existent smallest number, the f
 You may assume that next() and prev() calls will always be valid. That is, there will be at least a next/previous number in the in-order traversal when next()/prev() is called.
 
  */
-public class BinarySearchTreeIteratorII {
+public class $1586_BinarySearchTreeIteratorII {
 
     class TreeNode {
         int val;

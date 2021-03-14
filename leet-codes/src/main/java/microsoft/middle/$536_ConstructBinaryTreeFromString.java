@@ -22,7 +22,7 @@ Input: s = "-4(2(3)(1))(6(5)(7))"
 Output: [-4,2,6,3,1,5,7]
 
  */
-public class ConstructBinaryTreeFromString {
+public class $536_ConstructBinaryTreeFromString {
 
     class TreeNode {
         int val;
@@ -117,7 +117,7 @@ public class ConstructBinaryTreeFromString {
 
     public static void main(String[] args) {
 
-        ConstructBinaryTreeFromString a = new ConstructBinaryTreeFromString();
+        $536_ConstructBinaryTreeFromString a = new $536_ConstructBinaryTreeFromString();
         TreeNode root = a.str2tree("4(2(3)(1))(6(5))");
         System.out.println(root.val);
 
