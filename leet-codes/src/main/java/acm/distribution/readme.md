@@ -13,3 +13,4 @@
 - Consist-Hash
 - LSM-Tree
 - Bitmap
+- Timing Wheel
