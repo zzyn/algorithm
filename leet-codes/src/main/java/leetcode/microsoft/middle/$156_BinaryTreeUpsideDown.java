@@ -12,7 +12,7 @@ The original right child becomes the new left child.
  */
 public class $156_BinaryTreeUpsideDown {
 
-    class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
