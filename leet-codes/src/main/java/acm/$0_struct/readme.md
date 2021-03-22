@@ -17,8 +17,8 @@
     - 树
         - 二叉树[Binary Tree]
         - 二叉搜索树[Binary Search Tree][Binary Sort Tree]
-        - 平衡二叉树[AVL Tree]
-            - AVL树[self-balancing binary search tree]
+        - 平衡二叉树[self-balancing binary search tree]
+            - AVL树[AVL Tree]
             - 红黑树[Read Black Tree]
             - 树堆[Treap]
     - 堆[Heap](以数组的方式存储树的结构)
