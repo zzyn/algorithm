@@ -3,7 +3,8 @@
 - 选举算法
   - Paxos
   - Zab
-  - Raff
+  - Raft
+  - Raft Animation: https://github.com/benbjohnson/thesecretlivesofdata
   
 - snowflake
 - bloom filter
